@@ -1,0 +1,19 @@
+.game-hangman{
+    background-color: rgb(170, 151, 255); /*fondo del panel juego*/
+}
+.title-swal{
+    color: rgb(35, 87, 165);
+    font-size: 35px;
+}
+.errors-swal{
+    color: red;
+    font-size: 20px;
+}
+.tries-swal{
+    color: rgb(55, 160, 46);
+    font-size: 20px;
+}
+.score-swal{
+    color: rgb(4, 0, 255);
+    font-size: 20px;
+}

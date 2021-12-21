@@ -1,0 +1,18 @@
+.script-character-container{
+    background-color: rgb(128, 114, 189);
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.script-character{
+   font-size: 38px;
+   margin-right: 4px;
+   width:30px;
+   text-align: center;
+   position: relative;
+   margin: 7px 4px;
+   /* background-color: green; */
+}

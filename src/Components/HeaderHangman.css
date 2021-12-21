@@ -1,0 +1,111 @@
+.game-hangman-container{
+    display:flex;
+    height: 80px;
+}
+.button-game-hangman{
+    width:20%;
+    height: 100%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    background-color:rgb(153, 147, 181);
+}
+.button-game-hangman-color{
+    height: 100%;
+    width: 32%;
+    outline: none;
+    border: none;
+    /* background-color: rgb(252, 248, 165); */
+    background-color:rgb(153, 147, 181);
+}
+.button-game-hangman-font{
+    color: rgb(12, 3, 51); 
+    font-size: 38px;
+}
+.button-game-hangman-color:hover,
+.button-game-hangman-font:hover{
+    color: rgb(88, 82, 114);
+    font-size: 42px; 
+}
+.title-game-hangman{
+    width:61%;
+    height:100%;
+    text-align: center;
+    font-size: 52px;
+    font-weight: bolder;
+    background-color:rgb(153, 147, 181);
+}
+.title-game-hangman h5{
+    display:inline-block;
+    margin-top: 0px;
+    color:rgb(12, 3, 51); 
+}
+.title-game-hangman h5:hover{
+    color: rgb(88, 82, 114); 
+}
+.hidden-dates-hangman{
+    width:11%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bolder;
+    color:rgb(19, 7, 61);
+    background-color:rgb(153, 147, 181);
+}
+.button-hidden-hangman{
+    width:2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(153, 147, 181);
+}
+.button-hidden-hangman button{
+    background-color:rgb(91, 88, 107);
+    width:22px;
+    height: 24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-hidden-hangman h2{
+    font-size: 17px;
+    color:rgb(255, 255, 255);
+}
+
+.button-hidden-audio{
+    background-color:rgb(153, 147, 181);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:3%;
+}
+.button-hidden-audio .button-sound-up,
+.button-hidden-audio .button-sound-mute{
+    background-color:rgb(153, 147, 181);
+    color:blue;
+    border-radius: 50px;
+    height:25px;
+    font-size: 18px;
+}
+
+.times-open-hangman{
+    width:6%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(153, 147, 181);
+}
+.times-open-hangman h2{
+    color:rgb(19, 7, 61);
+    display:block;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.times-open-hangman h2 div{
+    color:rgb(26, 7, 7);
+    font-weight: bolder;
+}
